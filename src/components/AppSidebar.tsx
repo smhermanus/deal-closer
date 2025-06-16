@@ -41,7 +41,7 @@ const navigationItems = [
   },
   {
     title: "Stakeholder Maps",
-    url: "#",
+    url: "/stakeholder-maps",
     icon: Users,
   },
   {
