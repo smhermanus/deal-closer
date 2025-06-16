@@ -6,7 +6,7 @@ import { TrendingUp, TrendingDown, DollarSign, Target, Clock, Award } from "luci
 const metrics = [
   {
     title: "Pipeline Value",
-    value: "$2.4M",
+    value: "R12.4M",
     change: "+12.5%",
     trend: "up",
     icon: DollarSign,
@@ -22,7 +22,7 @@ const metrics = [
   },
   {
     title: "Avg. Deal Size",
-    value: "$45K",
+    value: "R650K",
     change: "-3.1%",
     trend: "down",
     icon: Award,

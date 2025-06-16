@@ -10,7 +10,7 @@ const deals = [
   {
     id: 1,
     company: "TechCorp Solutions",
-    value: "$125,000",
+    value: "R1,850,000",
     stage: "Proposal",
     health: "green",
     probability: 85,
@@ -22,7 +22,7 @@ const deals = [
   {
     id: 2,
     company: "Global Industries",
-    value: "$75,000",
+    value: "R1,125,000",
     stage: "Discovery",
     health: "yellow",
     probability: 65,
@@ -34,7 +34,7 @@ const deals = [
   {
     id: 3,
     company: "StartupXYZ",
-    value: "$45,000",
+    value: "R675,000",
     stage: "Negotiation",
     health: "red",
     probability: 40,
@@ -46,7 +46,7 @@ const deals = [
   {
     id: 4,
     company: "Enterprise Co",
-    value: "$200,000",
+    value: "R2,950,000",
     stage: "Qualification",
     health: "green",
     probability: 75,
