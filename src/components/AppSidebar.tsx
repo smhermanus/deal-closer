@@ -30,12 +30,12 @@ import {
 const navigationItems = [
   {
     title: "Dashboard",
-    url: "#",
+    url: "/",
     icon: BarChart3,
   },
   {
     title: "Deal Pipeline",
-    url: "#",
+    url: "/deals",
     icon: Target,
     badge: "12 Active",
   },
