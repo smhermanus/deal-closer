@@ -46,29 +46,29 @@ const navigationItems = [
   },
   {
     title: "Deal War Rooms",
-    url: "#",
+    url: "/deal-war-rooms",
     icon: FileText,
     badge: "3 New",
   },
   {
     title: "Sales Academy",
-    url: "#",
+    url: "/sales-academy",
     icon: BookOpen,
   },
   {
     title: "AI Coach",
-    url: "#",
+    url: "/ai-coach",
     icon: Brain,
     badge: "AI",
   },
   {
     title: "Forecasting",
-    url: "#",
+    url: "/forecasting",
     icon: TrendingUp,
   },
   {
     title: "Calendar",
-    url: "#",
+    url: "/calendar",
     icon: Calendar,
   },
 ];
@@ -76,11 +76,13 @@ const navigationItems = [
 const quickTools = [
   {
     title: "Dealcrafter Engine",
+    url: "/dealcrafter-engine",
     icon: Zap,
     badge: "NEW",
   },
   {
     title: "Deal Replay AI",
+    url: "/deal-replay-ai",
     icon: Brain,
   },
 ];
@@ -133,7 +135,7 @@ export function AppSidebar() {
               {quickTools.map((tool) => (
                 <SidebarMenuItem key={tool.title}>
                   <SidebarMenuButton asChild>
-                    <a href="#" className="flex items-center justify-between">
+                    <a href={tool.url} className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">
                         <tool.icon className="w-4 h-4" />
                         <span className="text-sm">{tool.title}</span>
